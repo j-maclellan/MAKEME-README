@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
-const licenseMarkdown = require("./generateMarkdown");
+const fs = require("fs");
+const generateMarkdown = require("./generateMarkdown.js");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -51,15 +52,43 @@ const questions = [
     }
 ];
 
+// README generator
+// const generateReadme = readMeArr => {
+//     return `
+//         # ${readMeArr.title}
+//         ${readMeArr.description}
+//     `
 
+// }
+
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile("./ReadMe.md", fileContent, err => {
+            if (err) {
+                reject(err)
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: "File created!"
+            });
+        });
+    });
+};
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
-        .then(answers => console.log(answers));
-}
+        .then(answers => {
+            return generateMarkdown(answers);
+        })
+        .then(pageHTML => {
+            return writeFile(pageHTML);
+        });
+};
 
 // Function call to initialize app
 init();
