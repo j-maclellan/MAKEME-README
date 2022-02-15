@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const licenseMarkdown = require("./generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -34,7 +35,7 @@ const questions = [
     },
     {
         type: "checkbox",
-        name: "licenses",
+        name: "license",
         message: "What license do you want to include in your README?",
         choices: ["MIT", "Apache", "GPL"]
     },
