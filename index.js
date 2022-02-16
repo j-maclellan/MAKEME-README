@@ -52,18 +52,10 @@ const questions = [
     }
 ];
 
-// README generator
-// const generateReadme = readMeArr => {
-//     return `
-//         # ${readMeArr.title}
-//         ${readMeArr.description}
-//     `
-
-// }
-
-const writeFile = fileContent => {
+// TODO: Create a function to write README file
+function writeFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./ReadMe.md", fileContent, err => {
+        fs.writeFile("./dist/ReadMe.md", data, err => {
             if (err) {
                 reject(err)
                 return;
@@ -75,9 +67,7 @@ const writeFile = fileContent => {
             });
         });
     });
-};
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -85,8 +75,8 @@ function init() {
         .then(answers => {
             return generateMarkdown(answers);
         })
-        .then(pageHTML => {
-            return writeFile(pageHTML);
+        .then(readMeData => {
+            return writeFile(readMeData);
         });
 };
 

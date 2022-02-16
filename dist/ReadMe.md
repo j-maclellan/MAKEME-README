@@ -1,5 +1,5 @@
 
-  # MAKEME-README
+  # J
   ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   See more badges at [shields.io](https://img.shields.io/)
@@ -16,18 +16,18 @@
   M
 
   ## Usage
-  A
+  D
   
   ## Tests
-  L
+  D
   
   ## Contributors
-  * C
+  * D
   
   undefined
   
   ## Questions
   For any questions, please contact me through:
-  * [GitHub](https://github.com/L)
-  * [Email](E)
+  * [GitHub](https://github.com/D)
+  * [Email](d)
   
