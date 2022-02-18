@@ -1,33 +1,22 @@
 
   # MAKEME-README
   ![License](https://img.shields.io/badge/license-MIT-brightgreen)
-
-  See more badges at [shields.io](https://img.shields.io/)
-  ## Description
-  D
-
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Tests](#tests)
-  * [Contributors](#contributors)
-
-  ## Installation
-  M
-
-  ## Usage
-  A
   
-  ## Tests
-  L
-  
+  ## Purpose
+  This application uses inquirer prompts to get user input and then uses that input to generate a README
+
+  ## Outline
+  * The user begins the prompts by entering "node index" into the terminal
+  * The user is then prompted to answer a series of questions that will be the content of their README
+  * Once the questions are finished, the README will be generated and placed in the dist folder
+
+  ## Built With
+  * Javascript
+  * Node.js
+  * Inquirer
+
+  ## 
+  ![Screenshot](./assets/images/READMEIMG.jpg)
+
   ## Contributors
-  * C
-  
-  undefined
-  
-  ## Questions
-  For any questions, please contact me through:
-  * [GitHub](https://github.com/L)
-  * [Email](E)
-  
+  * j-maclellan

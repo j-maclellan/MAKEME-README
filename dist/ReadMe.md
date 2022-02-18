@@ -1,10 +1,10 @@
 
-  # J
+  # Sample Project
   ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   See more badges at [shields.io](https://img.shields.io/)
   ## Description
-  D
+  This is a sample of the "MAKEME-README" application's generated README 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,21 +13,21 @@
   * [Contributors](#contributors)
 
   ## Installation
-  M
+  To install this application, clone the github repo to your local machine and open in the terminal
 
   ## Usage
-  D
+  To use this application, initialize it by entering "node index" into the terminal, which will open a series of question prompts and then a finalized README once they are done
   
   ## Tests
-  D
+  To test this application, install inquirer by entering "npm install inquirer" into the terminal, then intialize the application by entering "node index"
   
   ## Contributors
-  * D
+  * j-maclellan
   
   undefined
   
   ## Questions
   For any questions, please contact me through:
-  * [GitHub](https://github.com/D)
-  * [Email](d)
+  * [GitHub](https://github.com/j-maclellan)
+  * [Email](maclellanj15@gmail.com)
   
