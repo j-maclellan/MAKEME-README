@@ -15,8 +15,11 @@
   * Node.js
   * Inquirer
 
-  ## 
+  ## Image
   ![Screenshot](./assets/images/READMEIMG.jpg)
+
+  ## Video Link
+  [Video Link](https://drive.google.com/file/d/146z0qj5K62COXdgAM1imKHU4X5FhTJ5T/view)
 
   ## Contributors
   * j-maclellan
